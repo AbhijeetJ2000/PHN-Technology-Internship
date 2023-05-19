@@ -47,7 +47,12 @@
             border: 1px solid #ccc;
             border-radius: 3px;
         }
-    
+
+        input[type="code"],
+        select{
+          width: 15%;
+        }
+
         .button {
           background-color: #4CAF50;
           color: #fff;
@@ -81,6 +86,17 @@
 
         <label for="guests">Number of Guests:</label>
         <input type="number" id="guests" name="guests" min="1" required><br>
+
+        <div>
+          <label for="contact">Contact Number:</label>
+          <select type="code" id="countryCode" name="countryCode">
+              <option value="India">+91</option>
+              <option value="USA">+1</option>
+              <option value="UK">+44</option>
+              <option value="Australia">+61</option>
+          </select>
+          <input type="mobile" id="contact" name="contact" required><br>
+        </div>
 
         <label for="date">Date:</label>
         <input type="date" id="date" name="date" required>
