@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body style="background-color: azure;">
 	<header>
 		<div class="title">
 			<div class="logo" style="margin-right:3rem">
@@ -17,7 +17,21 @@
 		<nav>
 			<ul>
 				<li><a href="#">ABOUT US</a></li>
-				<li><a href="#">DEPARTMENT</a></li>
+				<li class="dropdown">
+					<a href="#">DEPARTMENT</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">COMPUTER SCIENCE AND ENGINEERING</a></li>
+						<li><a href="#">INFORMATION TECHNOLOGY</a></li>
+						<li><a href="#">ELECTRONICS AND COMMUNICATION ENGINEERING</a></li>
+						<li><a href="#">ELECTRICAL ENGINEERING</a></li>
+						<li><a href="#">APPLIED ELECTRONICS AND INSTRUMENTATION ENGINEERING</a></li>
+						<li><a href="#">MECHANICAL ENGINEERING</a></li>
+						<li><a href="#">CIVIL ENGINEERING</a></li>
+						<li><a href="#">CHEMICAL ENGINEERING</a></li>
+						<li><a href="#">BIOTECHNOLOGY</a></li>
+						<li><a href="#">FOOD TECHNOLOGY</a></li>
+					</ul>
+				</li>
 				<li><a href="#">FACULTY</a></li>
 				<li><a href="#">RESEARCH</a></li>
 				<li><a href="#">PLACEMENT</a></li>
@@ -26,8 +40,84 @@
 		</nav>
 	</header>
 
-	<!-- Rest of the webpage content goes here -->
+	<!-- Middle elements -->
+	<div class="main">
+		<div class="card" style="width: 50rem;">
+			<div class="card-body">
+				<h2 class="card-title">One Day at our College</h2>
+				<hr>
+				<iframe width="700" height="350" src="https://www.youtube.com/embed/dr2d9AGwvuo"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+	    </div>
 
+			<div class="card" style="width: 50rem; background-color: red;">
+				<div class="card-body">
+					<h2 class="card-title">AN AUTONOMOUS INSTITUTION</h2>
+					<hr>
+					<p class="para">Approved by All India Council for Technical Education (AICTE),<br>
+					Affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal formerly known as WBUT,<br><br>
+					NAAC Accredited Technical Institute with “A” Grade [CGPA-3.31 out of 4],<br><br>
+					B.Tech. Programs [AEIE, BT, CE, CHE, CSE, ECE, EE, FT, IT and ME] Accredited by National Board of Accreditation (NBA).
+				</p>
+				</div>
+			</div>
+	</div>
+
+		<footer class="site-footer">
+			<div class="wrapper">
+
+				<div class="column">
+					<div class="  widget widget_text widget-none" id="text-2">
+						<div class="textwidget">
+							<h3>Haldia Institute of Technology</h3>
+							<p>
+								<small>
+									<em>Since 1996</em>
+								</small>
+								<br />
+								<small>
+									ICARE Complex, Hatiberia<br />
+									Haldia, Dist-Purba Medinipore, WB,<br />Pin-721657
+								</small>
+							</p>
+							<p>
+								<small>
+									<em>Corporate Office : </em>
+								</small>
+								<br />
+								<small>54, Harish Mukherjee Road(2nd Floor) Kolkata 700025 </small>
+							</p>
+						</div>
+						<div class="cleaner">&nbsp;</div>
+					</div>
+					<div class="cleaner">&nbsp;</div>
+				</div>
+				<!-- end .column -->
+				<div class="column">
+					<div class="  widget widget_text widget-gold" id="text-8">
+						<div class="textwidget">
+							<h3>For Admission Inquiry :</h3>
+							<p>
+								<small>
+									<em>Corporate Office : </em>
+								</small>
+								<br />
+								<small>
+									54, Harish Mukherjee Road(2nd Floor)<br />Kolkata-700025
+								</small>
+							</p>
+						</div>
+						<div class="cleaner">&nbsp;</div>
+					</div>
+					<div class="cleaner">&nbsp;</div>
+				</div>
+				<!-- end .column -->
+			</div>
+			<!-- end .wrapper -->
+		</footer>
 </body>
 
 </html>

@@ -39,3 +39,66 @@ nav ul li a {
     color: white;
     font-weight: bold;
 }
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #4B0082;
+    padding: 1rem;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Style the dropdown menu items */
+  .dropdown-menu li {
+    margin: 0.4rem;
+    display: block;
+  }
+  
+  /* Style the links within the dropdown menu */
+  .dropdown-menu li a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the links within the dropdown menu on hover */
+  .dropdown-menu li a:hover {
+    color: #000;
+    background-color: #e6e6e6;
+  }
+
+  footer{
+    background-color: grey;
+  }
+
+  .wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    padding:1rem;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem;
+    
+  }
+  .card{
+    margin: 0.5rem;
+    border: solid 0.2rem grey;
+  }
+  .card-body{
+    
+    padding: 1rem;
+  }
+  .para{
+    color: white;
+  }
+
