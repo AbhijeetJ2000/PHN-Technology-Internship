@@ -1,19 +1,21 @@
-/* Reset default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
   }
   
-  /* Header container styles */
   .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: #2874f0;
     color: #fff;
   }
-  
+  .logo{
+    margin: 0rem 5rem;
+    margin-top: 0.2rem;
+
+  }
   nav {
     background-color: #4B0082;
     padding: 20px;
@@ -22,12 +24,10 @@
     justify-content: center;
 }
 
-  /* Logo styles */
   .logo img {
     height: 40px;
   }
   
-  /* Search bar styles */
   .search-bar input[type="text"] {
     width: 300px;
     height: 30px;
@@ -48,7 +48,6 @@
     cursor: pointer;
   }
   
-  /* Navigation styles */
   nav ul {
     list-style-type: none;
   }
@@ -69,7 +68,6 @@
     text-decoration: underline;
   }
   
-  /* Sub-menu styles */
   .sub-menu {
     display: none;
     position: absolute;
@@ -96,3 +94,14 @@
   .sub-menu li a:hover {
     text-decoration: underline;
   }
+  footer{
+    background-color: grey;
+  }
+
+  .wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    padding:1rem;
+  }
+
+
